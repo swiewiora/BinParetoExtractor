@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<MapData version="2.0">
+  <Properties>
+    <Property Name="InkingMap" Type="Bool">False</Property>
+    <Property Name="Partial" Type="Bool">True</Property>
+    <Property Name="InterruptReason" Type="String">Manually stopped - Normal</Property>
+    <Property Name="Lot" Type="String">P0SF639781</Property>
+    <Property Name="WaferId" Type="Integer">2</Property>
+    <Property Name="ProbeStartDate" Format="mm/dd/yyyy hh24:mi:ss" UtcOffset="+02:00" Type="Date">06/20/2014 13:53:09</Property>
+    <Property Name="ProbeEndDate" Format="mm/dd/yyyy hh24:mi:ss" UtcOffset="+02:00" Type="Date">06/20/2014 14:00:16</Property>
+    <Property Name="Device" Type="String">WT6MC3320200N.01</Property>
+    <Property Name="ProbeTemperature" Type="Number">25</Property>
+    <Property Name="Algorithm" Type="String">ProbingUnitProbe</Property>
+    <Property Name="ControlFile" Type="String">K39H.01_FET_test</Property>
+    <Property Name="ProberId" Type="String">PRB_JIRKA</Property>
+    <Property Name="TesterId" Type="String">TST_JIRKA</Property>
+    <Property Name="CardId" Type="String">682-01-TER-E-P</Property>
+    <Property Name="OperatorName" Type="String">Debug (Mapper Debug)</Property>
+    <Property Name="MapCreator" Type="String">Mapper.NET</Property>
+    <Property Name="MapCreatorVersion" Type="String">3.7.2.3.dev</Property>
+    <Property Name="ProbeSite" Type="String">MYD</Property>
+    <Property Name="WaferSize" Type="Number">150</Property>
+    <Property Name="WaferSizeUnitsOfMeasurement" Type="String">mm</Property>
+    <Property Name="FlatPosition" Type="Integer">180</Property>
+    <Property Name="DieHeight" Type="Number">4.572000</Property>
+    <Property Name="DieWidth" Type="Number">4.572000</Property>
+    <Property Name="DieSizeUnitOfMeasurement" Type="String">mm</Property>
+    <Property Name="PDPW" Type="Integer">6720</Property>
+    <Property Name="RowCount" Type="Integer">31</Property>
+    <Property Name="ColCount" Type="Integer">32</Property>
+    <Property Name="RefDieX" Type="Integer">9</Property>
+    <Property Name="RefDieY" Type="Integer">1</Property>
+    <Property Name="RefDieCoordX" Type="Integer">9</Property>
+    <Property Name="RefDieCoordY" Type="Integer">1</Property>
+    <Property Name="CoordinateOrientation" Type="Integer">2</Property>
+    <Property Name="ReticleX" Type="Integer">1</Property>
+    <Property Name="ReticleY" Type="Integer">1</Property>
+    <Property Name="GoodDice" Type="Integer">54</Property>
+    <Property Name="BadDice" Type="Integer">6666</Property>
+    <Property Name="ProbedGoodDice" Type="Integer">54</Property>
+    <Property Name="ProbedBadDice" Type="Integer">15</Property>
+    <Property Name="TouchdownCount" Type="Integer">69</Property>
+    <Property Name="PhysicalTouchdownCount" Type="Integer">69</Property>
+    <Property Name="WaferCenterX" Type="Number">16.0</Property>
+    <Property Name="WaferCenterY" Type="Number">15.0</Property>
+    <Property Name="ProbeEnded" Type="Bool">True</Property>
+  </Properties>
+  <DieDefinitions>
+    <DieDef Mark="___" Type="NullDie" />
+    <DieDef Mark="..." Type="UntestedDie" />
+    <DieDef Mark="XXX" Type="SkipDie" />
+    <DieDef Mark="ERR" Type="ErrorDie" />
+  </DieDefinitions>
+  <BinDefinitions>
+    <Bin Type="Pass">0</Bin>
+    <Bin Type="Pass">1</Bin>
+    <Bin Type="Fail">2</Bin>
+    <Bin Type="Fail">3</Bin>
+    <Bin Type="Fail">4</Bin>
+    <Bin Type="Fail">5</Bin>
+    <Bin Type="Fail">6</Bin>
+    <Bin Type="Fail">7</Bin>
+    <Bin Type="Fail">8</Bin>
+    <Bin Type="Fail">9</Bin>
+    <Bin Type="Fail">10</Bin>
+    <Bin Type="Fail">11</Bin>
+    <Bin Type="Fail">12</Bin>
+    <Bin Type="Fail">13</Bin>
+    <Bin Type="Fail">14</Bin>
+    <Bin Type="Fail">15</Bin>
+    <Bin Type="Fail">16</Bin>
+    <Bin Type="Fail">17</Bin>
+    <Bin Type="Fail">18</Bin>
+    <Bin Type="Fail">19</Bin>
+    <Bin Type="Fail">20</Bin>
+    <Bin Type="Fail">21</Bin>
+    <Bin Type="Fail">22</Bin>
+    <Bin Type="Fail">23</Bin>
+  </BinDefinitions>
+  <BinCodeMap>
+    <Row n="000">___ ___ ___ ___ ___ ___ ___ ___ ___ XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX ___ ___ ___ ___ ___ ___ ___ ___ ___</Row>
+    <Row n="001">___ ___ ___ ___ ___ ___ ___ XXX XXX XXX 001 000 001 002 001 001 012 001 016 000 000 000 XXX XXX ___ ___ ___ ___ ___ ___ ___ ___</Row>
+    <Row n="002">___ ___ ___ ___ ___ ___ XXX XXX 000 000 001 000 008 000 001 001 XXX 001 001 011 000 001 000 014 XXX XXX ___ ___ ___ ___ ___ ___</Row>
+    <Row n="003">___ ___ ___ ___ ___ XXX XXX 001 000 001 001 000 001 000 001 000 000 000 001 001 000 000 007 001 001 XXX XXX ___ ___ ___ ___ ___</Row>
+    <Row n="004">___ ___ ___ ___ XXX XXX 001 009 001 000 000 001 004 005 001 013 001 022 000 015 001 001 001 000 000 000 XXX XXX ___ ___ ___ ___</Row>
+    <Row n="005">___ ___ ___ XXX XXX 001 009 004 000 ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___ ___ ___</Row>
+    <Row n="006">___ ___ XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___ ___</Row>
+    <Row n="007">___ ___ XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX ___ ___</Row>
+    <Row n="008">___ XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___</Row>
+    <Row n="009">___ XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX ___</Row>
+    <Row n="010">XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX ___</Row>
+    <Row n="011">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="012">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="013">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="014">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="015">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="016">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="017">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="018">XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX</Row>
+    <Row n="019">XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX</Row>
+    <Row n="020">___ XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX ___</Row>
+    <Row n="021">___ XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___</Row>
+    <Row n="022">___ ___ XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX ___ ___</Row>
+    <Row n="023">___ ___ XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___ ___</Row>
+    <Row n="024">___ ___ ___ XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___ ___ ___</Row>
+    <Row n="025">___ ___ ___ ___ XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___ ___ ___ ___</Row>
+    <Row n="026">___ ___ ___ ___ ___ XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX ___ ___ ___ ___ ___</Row>
+    <Row n="027">___ ___ ___ ___ ___ ___ XXX XXX ... ... ... ... ... ... ... ... XXX ... ... ... ... ... ... ... XXX XXX ___ ___ ___ ___ ___ ___</Row>
+    <Row n="028">___ ___ ___ ___ ___ ___ ___ XXX XXX XXX ... ... ... ... ... ... ... ... ... ... ... ... XXX XXX XXX ___ ___ ___ ___ ___ ___ ___</Row>
+    <Row n="029">___ ___ ___ ___ ___ ___ ___ ___ ___ XXX XXX XXX ... ... ... ... ... ... ... ... XXX XXX XXX ___ ___ ___ ___ ___ ___ ___ ___ ___</Row>
+    <Row n="030">___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___</Row>
+  </BinCodeMap>
+  <PhysicalTouchdownCountMap>
+    <TouchdownRow n="000">___ ___ ___ ___ ___ ___ ___ ___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___ ___ ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="001">___ ___ ___ ___ ___ ___ ___ 000 000 000 001 001 001 001 001 001 001 001 001 001 001 001 000 000 ___ ___ ___ ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="002">___ ___ ___ ___ ___ ___ 000 000 001 001 001 001 001 001 001 001 000 001 001 001 001 001 001 001 000 000 ___ ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="003">___ ___ ___ ___ ___ 000 000 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 000 000 ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="004">___ ___ ___ ___ 000 000 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 001 000 000 ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="005">___ ___ ___ 000 000 001 001 001 001 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="006">___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___</TouchdownRow>
+    <TouchdownRow n="007">___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___</TouchdownRow>
+    <TouchdownRow n="008">___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___</TouchdownRow>
+    <TouchdownRow n="009">___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___</TouchdownRow>
+    <TouchdownRow n="010">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___</TouchdownRow>
+    <TouchdownRow n="011">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="012">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="013">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="014">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="015">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="016">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="017">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="018">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="019">000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000</TouchdownRow>
+    <TouchdownRow n="020">___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___</TouchdownRow>
+    <TouchdownRow n="021">___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___</TouchdownRow>
+    <TouchdownRow n="022">___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___</TouchdownRow>
+    <TouchdownRow n="023">___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___</TouchdownRow>
+    <TouchdownRow n="024">___ ___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="025">___ ___ ___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="026">___ ___ ___ ___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="027">___ ___ ___ ___ ___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="028">___ ___ ___ ___ ___ ___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="029">___ ___ ___ ___ ___ ___ ___ ___ ___ 000 000 000 000 000 000 000 000 000 000 000 000 000 000 ___ ___ ___ ___ ___ ___ ___ ___ ___</TouchdownRow>
+    <TouchdownRow n="030">___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ 000 000 000 000 000 000 000 000 000 000 ___ ___ ___ ___ ___ ___ ___ ___ ___ ___ ___</TouchdownRow>
+  </PhysicalTouchdownCountMap>
+  <Touchdowns TimeFormat="yymmddhh24miss" UtcOffset="+02:00">
+    <t n="0" x="10" y="1" s="0">1</t>
+    <t n="1" x="11" y="1" s="0">0</t>
+    <t n="2" x="12" y="1" s="0">1</t>
+    <t n="3" x="13" y="1" s="0">2</t>
+    <t n="4" x="14" y="1" s="0">1</t>
+    <t n="5" x="15" y="1" s="0">1</t>
+    <t n="6" x="16" y="1" s="0">12</t>
+    <t n="7" x="17" y="1" s="0">1</t>
+    <t n="8" x="18" y="1" s="0">16</t>
+    <t n="9" x="19" y="1" s="0">0</t>
+    <t n="10" x="20" y="1" s="0">0</t>
+    <t n="11" x="21" y="1" s="0">0</t>
+    <t n="12" x="23" y="2" s="0">14</t>
+    <t n="13" x="22" y="2" s="0">0</t>
+    <t n="14" x="21" y="2" s="0">1</t>
+    <t n="15" x="20" y="2" s="0">0</t>
+    <t n="16" x="19" y="2" s="0">11</t>
+    <t n="17" x="18" y="2" s="0">1</t>
+    <t n="18" x="17" y="2" s="0">1</t>
+    <t n="19" x="15" y="2" s="0">1</t>
+    <t n="20" x="14" y="2" s="0">1</t>
+    <t n="21" x="13" y="2" s="0">0</t>
+    <t n="22" x="12" y="2" s="0">8</t>
+    <t n="23" x="11" y="2" s="0">0</t>
+    <t n="24" x="10" y="2" s="0">1</t>
+    <t n="25" x="9" y="2" s="0">0</t>
+    <t n="26" x="8" y="2" s="0">0</t>
+    <t n="27" x="7" y="3" s="0">1</t>
+    <t n="28" x="8" y="3" s="0">0</t>
+    <t n="29" x="9" y="3" s="0">1</t>
+    <t n="30" x="10" y="3" s="0">1</t>
+    <t n="31" x="11" y="3" s="0">0</t>
+    <t n="32" x="12" y="3" s="0">1</t>
+    <t n="33" x="13" y="3" s="0">0</t>
+    <t n="34" x="14" y="3" s="0">1</t>
+    <t n="35" x="15" y="3" s="0">0</t>
+    <t n="36" x="16" y="3" s="0">0</t>
+    <t n="37" x="17" y="3" s="0">0</t>
+    <t n="38" x="18" y="3" s="0">1</t>
+    <t n="39" x="19" y="3" s="0">1</t>
+    <t n="40" x="20" y="3" s="0">0</t>
+    <t n="41" x="21" y="3" s="0">0</t>
+    <t n="42" x="22" y="3" s="0">7</t>
+    <t n="43" x="23" y="3" s="0">1</t>
+    <t n="44" x="24" y="3" s="0">1</t>
+    <t n="45" x="25" y="4" s="0">0</t>
+    <t n="46" x="24" y="4" s="0">0</t>
+    <t n="47" x="23" y="4" s="0">0</t>
+    <t n="48" x="22" y="4" s="0">1</t>
+    <t n="49" x="21" y="4" s="0">1</t>
+    <t n="50" x="20" y="4" s="0">1</t>
+    <t n="51" x="19" y="4" s="0">15</t>
+    <t n="52" x="18" y="4" s="0">0</t>
+    <t n="53" x="17" y="4" s="0">22</t>
+    <t n="54" x="16" y="4" s="0">1</t>
+    <t n="55" x="15" y="4" s="0">13</t>
+    <t n="56" x="14" y="4" s="0">1</t>
+    <t n="57" x="13" y="4" s="0">5</t>
+    <t n="58" x="12" y="4" s="0">4</t>
+    <t n="59" x="11" y="4" s="0">1</t>
+    <t n="60" x="10" y="4" s="0">0</t>
+    <t n="61" x="9" y="4" s="0">0</t>
+    <t n="62" x="8" y="4" s="0">1</t>
+    <t n="63" x="7" y="4" s="0">9</t>
+    <t n="64" x="6" y="4" s="0">1</t>
+    <t n="65" x="5" y="5" s="0">1</t>
+    <t n="66" x="6" y="5" s="0">9</t>
+    <t n="67" x="7" y="5" s="0">4</t>
+    <t n="68" x="8" y="5" s="0">0</t>
+  </Touchdowns>
+</MapData>
